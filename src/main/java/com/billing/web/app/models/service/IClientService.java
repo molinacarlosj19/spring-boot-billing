@@ -1,10 +1,10 @@
-package com.billing.web.app.models.dao;
+package com.billing.web.app.models.service;
 
 import java.util.List;
 
 import com.billing.web.app.models.entity.Client;
 
-public interface IClientDAO {
+public interface IClientService {
 	
 	public List<Client> findAll();
 	
@@ -13,6 +13,4 @@ public interface IClientDAO {
 	public Client findOne(Long id);
 	
 	public void delete(Long id);
-	
-
 }
